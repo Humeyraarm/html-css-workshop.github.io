@@ -1,0 +1,87 @@
+/* * {
+  border: 1px solid black;
+}
+*/
+body {
+  height: 100vh;
+
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding:0;
+}
+
+#header {
+  background-color: #FFE4E1;
+  border-bottom: 5px solid black;
+}
+
+#header a {
+  color: #E9967A;
+  text-decoration: underline;
+  text-decoration-style:initial;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#header li {
+  display: inline;
+  padding: 0 20px;
+  font-family: "Audiowide", sans-serif;
+}
+#branding {
+  color: #E9967A;
+  font-family: "Cursive",Brush Script MT;
+  font-size: 30px
+}
+
+#spanColor {
+  color:#E9967A ;
+}
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("oley.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 90vh;
+}
+
+#main h1 {
+  font-size: 60px;
+  margin: 200px 0 10px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#main p {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#about, #contact {
+  background-color: #FFA07A;
+  color: white;
+}
+#about h2, #contact h2 {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#about p, #contact p {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  padding: 0 10px;
+}
